@@ -12,6 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@media (prefers-reduced-motion: no-preference){
+  .reverse {
+    animation: App-logo-spin-reverse infinite 20s linear;
+  }
+}
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +41,13 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes App-logo-spin-reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
