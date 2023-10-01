@@ -3,10 +3,10 @@ import React from 'react'
 import styles from './discord.module.scss'
 import cn from 'classnames';
 import cnBind from 'classnames/bind';
-import axios from 'axios';
+//import axios from 'axios';
 
 //components
-import Navigation from '../components/discord/Navigation'
+//import Navigation from '../../containers/discord/'
 
 const cx = cnBind.bind(styles)
 
@@ -17,7 +17,7 @@ const discord = () => {
   return (
     <div className={cx('general')}>
       <div className={Navclassname}>
-        <Navigation/>
+       
       </div>
       <div className={MainSectionclassname}></div>
     </div>

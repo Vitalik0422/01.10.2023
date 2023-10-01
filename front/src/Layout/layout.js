@@ -11,6 +11,10 @@ const layout = () => {
         <NavLink to='discord'>DISCORD</NavLink>
         <br></br>
         <NavLink to='/'>main</NavLink>
+        <br></br>
+        <NavLink to='/login'>LOGIN</NavLink>
+        <br></br>
+        <NavLink to='/yousearch'>YouTube</NavLink>
     </footer>
     </>
   )
